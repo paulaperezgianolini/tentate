@@ -1,0 +1,43 @@
+@import "variables";
+
+.carousel__imagenes{
+    margin-left: 350px;
+    overflow: hidden;
+    padding: 15px;
+    width: 50%;
+    align-content: center;
+    justify-content: center;
+    .carousel-item{
+        justify-content: center;
+        width: 100%;
+
+    }
+
+}
+.medios{ 
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+    align-items: center;
+    padding-left: 15px;
+        .medios__texto{
+            background-color: $celesteIntermedio;
+            font-family: $fuente;
+            color:black;
+            text-align: center;
+            font-size: 2rem;
+        }
+        .medios__ubicacion{
+            margin-left: 50px;
+            align-content: center;
+            padding: 10px;
+        }
+        .medios__musica{
+            align-content: center;
+            width: 400px;
+            margin-left: 250px;
+            padding: 10px;
+           
+        
+        }
+}

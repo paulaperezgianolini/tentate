@@ -1,0 +1,30 @@
+@import "variables";
+
+.formulario{
+    margin: 15px;
+    border-color: black;
+    align-content: center;
+    justify-content: center;
+}
+form{
+    align-content: center;
+    margin-left: 350px;
+    justify-content: center;
+    color:$azulNoche;
+    font-family: $fuente;
+    font-size: 2rem;
+
+}
+
+input{
+    color:$celesteFuerte;
+    border-color: $azul;
+    font-family: $fuente;
+
+}
+
+input:hover{
+    color: $celesteClaro;
+    border-color: $azulNoche;
+    font-family: $fuente;
+}

@@ -1,0 +1,43 @@
+@import "variables";
+html{
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-image: url(fondo2.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;  
+    background-size: 50%;
+
+}
+
+.logoPrincipal{
+    display: block;
+    margin: auto;
+}
+
+.linkInicio{
+    display: inline-block;
+    font-weight: bolder;
+    font-family: $fuente;
+    font-size: 2rem;
+    margin-right: 20px;
+    padding-right: 3px;
+    padding-left: 3px;
+    border-style: solid;
+    border-color: $azulNoche;
+    background-color: white;
+    color: $azul;
+}
+
+.linkInicio:hover{
+    background-color: $celesteFuerte;
+}
+

@@ -1,0 +1,54 @@
+@import "variables";
+
+.encabezado{
+    margin-left: 15px;
+}
+
+.accordion{
+    margin: 45px;
+    padding: 2px;
+        .accordion-item{
+            margin: 10px;
+            padding: 20px;
+            background-color: white;
+                .accordion-button{
+                    background-color: $gris;
+                    font-family: $fuente;
+                    font-style: italic;
+                    font-size: 2rem;
+                    font-weight: bold;
+                    color: $azulNoche;
+                }
+        
+                .accordion-collapse{
+                    margin-left: 25px;
+                        .accordion-text{
+                            font-family: $fuente;
+                            color: $azulNoche;
+                            text-align: left;
+                            font-size: 1.5rem;  }
+                            ul {
+                                font-family: $fuente;
+                                color: $azulNoche;
+                                font-size: 1.5rem;
+                                text-align: left;
+                           
+                        }
+                        .pCongelados{
+                            color: $azulNoche;
+                            font-family: $fuente;
+                            font-size: 1.5rem;
+                            text-align: left;
+                        }}
+                }
+            }
+
+.parrafo{
+    font-family: $fuente;
+    background-color: none;
+    font-size: 2rem;
+    color:$azulNoche;
+    margin-left: 5px;
+    text-align: center;
+}
+

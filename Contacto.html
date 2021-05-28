@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Contacto</title>
+    <meta name="descripcion" content="Tienda de productos frescos y congelados para acompañarte en tu día a día. Podés vender nuestros productos en tu negocio. Contactanos.">
+	<meta name="keywords" content="Comida, Congelados, Comidas Frescas, Pastas, Tucumán, Proveedor, Cliente, Contacto">
+	<meta name="autor" content="Paula Perez Gianolini">
+</head>
+<body>
+
+    <header class="encabezado">
+        <img src="img/tentate.png" alt="Logo"width=15%>
+
+        <br>
+
+        <a class="linkInicio" href="indexpérezgianolini.html"> Inicio </a>
+    </header>
+
+    <h1>CONTACTATE CON NOSOTROS PARA MEJOR INFORMACIÓN</h1>
+
+    <section class="formulario">
+            <h2>Dejanos tus datos para contactarnos con vos.</h2>
+            <form action="contacto.php" method="GET">
+
+                    <label for="texto">Nombre:</label>
+                    <input type="text"placeholder="Nombre" value="" required>
+                    <br>
+                    <label for="Apellido">Apellido:</label>
+                    <input type="text" placeholder="Apellido"value="" required>
+                    <br>
+                    <label for="Contacto">¿Para qué queres contactarnos?</label>
+                    <select>
+                        <option>Soy proveedor</option>
+                        <option>Soy Cliente</option>
+                        <option>Otros motivos</option>
+                    </select>
+                    <br>
+                    <label for="correo">E-mail:</label>
+                    <input type="email" placeholder="nombre@ejemplo.com" value="" required>
+                    <br>
+                    <label for="teléfono">Teléfono</label>
+                    <input type="text" placeholder="Teléfono" value="" required>
+                    <br>
+                    <label for="novedades">Recibí nuestras novedades</label><input type="checkbox" id="novedades">
+                    <br>
+                    <textarea name="mensaje" placeholder="Dejanos tu consulta" cols="40" rows="4" minlength="5" maxlength="200" ></textarea>
+                   
+                    <br>
+                    <br>
+
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar todo">
+
+            </form>
+    </section>
+
+    <footer>
+        <div class="contacto"><!-- BEM -->
+  
+          <h3 class="contacto__texto">Contactate con nosotros en nuestras redes sociales</h3><!-- BEM -->
+          
+          <a href="https://www.instagram.com/tentatecongelados.tuc/" target="_blank"><img class="contacto__redes" src="img/instagram.png" alt="instagram"></a><!-- BEM -->
+          <a href="https://linktr.ee/Tentate_" target="_blank"> <img class="contacto__redes" src="img/whatsapp.png" alt="whatsapp"></a> <!-- BEM -->
+        </div>   
+      </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

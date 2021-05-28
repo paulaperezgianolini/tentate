@@ -1,0 +1,47 @@
+@import "variables";
+
+.card-group{
+    margin: 10px;
+    padding: 3px;
+    
+}
+
+.card{
+    margin: 35px 50px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    }
+
+.card-title{
+    font-family: $fuente;
+    color: $azulNoche;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.card-img-top{
+    width: 35%;
+    align-items: center;
+    transition: width 1s;
+}
+.card-img-top:hover{
+    width: 100%;
+
+}
+
+.card-text{
+    font-family: $fuente;
+    color: $celesteIntermedio;
+    font-size: 1.5rem;
+    text-align: left;
+    .text-muted{
+        align-items: flex-end;
+        justify-items: center;
+        font-family: $fuente;
+        font-size: 3rem;
+        font-weight: bolder;
+        color:$azulNoche;
+    }
+}
+
