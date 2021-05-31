@@ -1,6 +1,6 @@
 @import "variables";
 html{
-    font-size: 62.5%;
+    font-size: 70%;
 }
 
 * {
@@ -23,9 +23,13 @@ body{
     margin: auto;
 }
 
+.row{
+    margin:25px;
+}
 .linkInicio{
     display: inline-block;
     font-weight: bolder;
+    color: $azul;
     font-family: $fuente;
     font-size: 2rem;
     margin-right: 20px;
@@ -34,7 +38,7 @@ body{
     border-style: solid;
     border-color: $azulNoche;
     background-color: white;
-    color: $azul;
+    
 }
 
 .linkInicio:hover{

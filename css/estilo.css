@@ -1,5 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
 html {
-  font-size: 62.5%; }
+  font-size: 70%; }
 
 * {
   margin: 0px;
@@ -16,48 +26,46 @@ body {
   display: block;
   margin: auto; }
 
+.row {
+  margin: 25px; }
+
 .linkInicio {
   display: inline-block;
   font-weight: bolder;
-  font-family: "Oswald", sans-serif;
+  color: #8db8e0;
+  font-family: "Open Sans", sans-serif;
   font-size: 2rem;
   margin-right: 20px;
   padding-right: 3px;
   padding-left: 3px;
   border-style: solid;
   border-color: #1a4061;
-  background-color: white;
-  color: #8db8e0; }
+  background-color: white; }
 
 .linkInicio:hover {
   background-color: #2f72ad; }
 
-h1 {
+.title {
   background-color: #1a4061;
-  font-family: "Oswald", sans-serif;
+  font-family: "Fredericka the Great";
   color: white;
   text-align: center;
-  font-size: 3rem;
-  margin: 20px 100px; }
+  font-size: 6rem;
+  margin: auto; }
 
-h2 {
+.titleInicio {
+  font-family: "Open Sans", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  margin: auto;
   background-color: rgba(49, 113, 168, 0.753);
-  font-family: "Oswald", sans-serif;
-  font-size: 2.5em;
-  margin: 3px 25px;
-  color: black; }
-  h2 .titleInicio {
-    font-family: "Oswald", sans-serif;
-    font-size: 2rem;
-    text-align: center;
-    background-color: rgba(49, 113, 168, 0.753);
-    color: #1a4061; }
+  color: #1a4061; }
 
 p {
   background-color: white;
   color: #2f72ad;
-  font-family: "Oswald", sans-serif;
-  font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.5rem;
   text-align: center;
   margin: 5px;
   padding: 25px; }
@@ -81,7 +89,7 @@ p {
   padding-left: 15px; }
   .medios .medios__texto {
     background-color: rgba(49, 113, 168, 0.753);
-    font-family: "Oswald", sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: black;
     text-align: center;
     font-size: 2rem; }
@@ -104,6 +112,7 @@ p {
   background-image: linear-gradient(rgba(49, 113, 168, 0.753), #8db8e0); }
   .contacto .contacto__texto {
     color: black;
+    font-family: "Open Sans", sans-serif;
     font-size: 2.5rem; }
   .contacto .contacto__redes {
     position: relative;
@@ -123,7 +132,7 @@ p {
     background-color: white; }
     .accordion .accordion-item .accordion-button {
       background-color: rgba(159, 188, 216, 0.726);
-      font-family: "Oswald", sans-serif;
+      font-family: "Open Sans", sans-serif;
       font-style: italic;
       font-size: 2rem;
       font-weight: bold;
@@ -131,23 +140,23 @@ p {
     .accordion .accordion-item .accordion-collapse {
       margin-left: 25px; }
       .accordion .accordion-item .accordion-collapse .accordion-text {
-        font-family: "Oswald", sans-serif;
+        font-family: "Open Sans", sans-serif;
         color: #1a4061;
         text-align: left;
         font-size: 1.5rem; }
       .accordion .accordion-item .accordion-collapse ul {
-        font-family: "Oswald", sans-serif;
+        font-family: "Open Sans", sans-serif;
         color: #1a4061;
         font-size: 1.5rem;
         text-align: left; }
       .accordion .accordion-item .accordion-collapse .pCongelados {
         color: #1a4061;
-        font-family: "Oswald", sans-serif;
+        font-family: "Open Sans", sans-serif;
         font-size: 1.5rem;
         text-align: left; }
 
 .parrafo {
-  font-family: "Oswald", sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: none;
   font-size: 2rem;
   color: #1a4061;
@@ -165,18 +174,18 @@ form {
   margin-left: 350px;
   justify-content: center;
   color: #1a4061;
-  font-family: "Oswald", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 2rem; }
 
 input {
   color: #2f72ad;
   border-color: #8db8e0;
-  font-family: "Oswald", sans-serif; }
+  font-family: "Open Sans", sans-serif; }
 
 input:hover {
   color: rgba(90, 129, 163, 0.897);
   border-color: #1a4061;
-  font-family: "Oswald", sans-serif; }
+  font-family: "Open Sans", sans-serif; }
 
 .container {
   margin: 25px;
@@ -193,18 +202,18 @@ input:hover {
     padding: 3px;
     size: 3px; }
   .container h2 {
-    font-family: "Oswald", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 1.5rem;
     color: #1a4061;
     text-align: center; }
   .container .precio {
-    font-family: "Oswald", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 2rem;
     color: #1a4061;
     text-align: center;
     font-weight: bolder; }
   .container .descripcion {
-    font-family: "Oswald", sans-serif;
+    font-family: "Open Sans", sans-serif;
     margin: 1em auto;
     gap: 3px;
     grid-template-columns: repeat(2, 1fr); }
@@ -231,7 +240,7 @@ input:hover {
   justify-content: center; }
 
 .card-title {
-  font-family: "Oswald", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #1a4061;
   font-size: 2rem;
   font-weight: bolder; }
@@ -245,14 +254,14 @@ input:hover {
   width: 100%; }
 
 .card-text {
-  font-family: "Oswald", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: rgba(49, 113, 168, 0.753);
   font-size: 1.5rem;
   text-align: left; }
   .card-text .text-muted {
     align-items: flex-end;
     justify-items: center;
-    font-family: "Oswald", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 3rem;
     font-weight: bolder;
     color: #1a4061; }
