@@ -5,11 +5,12 @@
     justify-content: center;
     padding: 10px;
     width: 100%;
-    background-image: linear-gradient($celesteIntermedio,$azul);
+    background-image: linear-gradient($celesteIntermedio,$azulNoche);
     .contacto__texto{
-        color: black;
-        font-family: $fuente;
-        font-size: 2.5rem;
+        color: white;
+        font-family: $titulos;
+        font-size: 3rem;
+    
     }
     .contacto__redes{
         position: relative;

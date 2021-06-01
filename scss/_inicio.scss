@@ -10,12 +10,7 @@ html{
 
 
 body{
-    background-image: url(fondo2.png);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;  
-    background-size: 50%;
-
+    background-color: $colorFondo; 
 }
 
 .logoPrincipal{
@@ -43,5 +38,33 @@ body{
 
 .linkInicio:hover{
     background-color: $celesteFuerte;
+}
+
+.title{background-color:$azulNoche;
+    font-family: $titulos;
+    color: white; 
+    text-align: center;
+    font-size: 6rem;
+    margin: auto;
+}
+
+.titleInicio{
+    font-family: $fuente;
+    font-size: 3.5em;
+    text-align: center;
+    margin: auto;
+    background-color: $celesteIntermedio;
+    color:$azulNoche;
+}
+.parrafo{
+    font-family: $fuente;
+    font-size: 2rem;
+    color:$azulNoche;
+    text-align: center;
+
+}
+
+.encabezado{
+    margin-bottom: 25px;
 }
 
