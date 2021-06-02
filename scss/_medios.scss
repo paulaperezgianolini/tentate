@@ -1,13 +1,14 @@
 @import "variables";
 
 .carousel__imagenes{
-    margin-left: 350px;
+    margin-left: 150px;
     overflow: hidden;
     padding: 15px;
-    width: 50%;
+    width: 80%;
     align-content: center;
     justify-content: center;
     .carousel-item{
+        align-content: center;
         justify-content: center;
         width: 100%;
 

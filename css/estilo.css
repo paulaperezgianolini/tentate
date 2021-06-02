@@ -67,13 +67,14 @@ body {
   margin-bottom: 25px; }
 
 .carousel__imagenes {
-  margin-left: 350px;
+  margin-left: 150px;
   overflow: hidden;
   padding: 15px;
-  width: 50%;
+  width: 80%;
   align-content: center;
   justify-content: center; }
   .carousel__imagenes .carousel-item {
+    align-content: center;
     justify-content: center;
     width: 100%; }
 
@@ -98,6 +99,9 @@ body {
     width: 400px;
     margin-left: 250px;
     padding: 10px; }
+
+footer {
+  width: 100%; }
 
 .contacto {
   display: flex;
