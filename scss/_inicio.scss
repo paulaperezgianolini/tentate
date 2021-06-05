@@ -2,6 +2,7 @@
 html{
     font-size: 70%;
 }
+ /*Reseteo*/
 
 * {
     margin: 0px;
@@ -62,5 +63,49 @@ body{
     color:$azulNoche;
     text-align: center;
 
+}
+
+/*Carousel de imagenes centrado*/
+.carousel__imagenes{
+    overflow: hidden;
+    width: 80%;
+    align-content: center;
+    justify-content: center;
+    .carousel-item{
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+
+    }
+
+}
+/*Ubicacion y música*/
+.container{
+    margin: 25px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.medios{ 
+    overflow: hidden;
+        .medios_ubicacion_texto{
+            font-family: $fuente;
+            color: $azulNoche;
+            text-align: center;
+            font-size: 2rem;
+        }
+        .medios_musica_texto{
+            grid-column: 2;
+            grid-row: 1;
+            font-family: $fuente;
+            font-size: 2rem;
+            color: $azulNoche;
+            text-align: center;
+
+        }
+        
 }
 

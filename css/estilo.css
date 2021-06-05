@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
@@ -12,6 +10,7 @@
 html {
   font-size: 70%; }
 
+/*Reseteo*/
 * {
   margin: 0px;
   padding: 0px; }
@@ -64,10 +63,9 @@ body {
   color: #1a4061;
   text-align: center; }
 
+/*Carousel de imagenes centrado*/
 .carousel__imagenes {
-  margin-left: 150px;
   overflow: hidden;
-  padding: 15px;
   width: 80%;
   align-content: center;
   justify-content: center; }
@@ -76,44 +74,32 @@ body {
     justify-content: center;
     width: 100%; }
 
-.medios {
-  display: grid;
-  height: 450px;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 30% 70%;
-  column-gap: 45px;
-  row-gap: 25px;
-  border: black;
-  background-color: red;
-  margin: 55px;
-  /*
-    align-items: center;*/
-  padding-left: 5px;
-  /*
-        .medios_ubicacion_texto{
-            grid-column: 1;
-            grid-row: 1;
-            justify-self: center;
-            background-color: black;
-            font-family: $titulos;
-            color:black;
-            text-align: center;
-            font-size: 6rem;
-        }
-        .medios__ubicacion{
-            margin-left: 50px;
-            align-content: center;
-            padding: 10px;
-        }
-        .medios__musica{
-            align-content: center;
-            width: 400px;
-            margin-left: 250px;
-            padding: 10px;
-           
-        
-        }*/ }
+/*Ubicacion y música*/
+.container {
+  margin: 25px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around; }
 
+.medios {
+  overflow: hidden; }
+  .medios .medios_ubicacion_texto {
+    font-family: "Open Sans", sans-serif;
+    color: #1a4061;
+    text-align: center;
+    font-size: 2rem; }
+  .medios .medios_musica_texto {
+    grid-column: 2;
+    grid-row: 1;
+    font-family: "Open Sans", sans-serif;
+    font-size: 2rem;
+    color: #1a4061;
+    text-align: center; }
+
+/*Footer*/
 footer {
   width: 100%; }
 
@@ -134,10 +120,12 @@ footer {
     width: 50px;
     margin: 15px; }
 
+/*Encabezado para secciones no principales*/
 .encabezado {
   margin-left: 80px;
   margin-bottom: 20px; }
 
+/*Recetas*/
 .accordion {
   margin: 45px;
   padding: 2px; }
@@ -170,6 +158,7 @@ footer {
         font-size: 1.5em;
         text-align: left; }
 
+/*Formulario de contacto*/
 .formulario {
   margin: 15px;
   border-color: black;
@@ -194,37 +183,7 @@ input:hover {
   border-color: #1a4061;
   font-family: "Open Sans", sans-serif; }
 
-.container {
-  margin: 25px;
-  padding: 5px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: space-around; }
-  .container .columna {
-    background-color: grey;
-    border: solid black;
-    margin: 5px;
-    padding: 3px;
-    size: 3px; }
-  .container h2 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.5rem;
-    color: #1a4061;
-    text-align: center; }
-  .container .precio {
-    font-family: "Open Sans", sans-serif;
-    font-size: 2rem;
-    color: #1a4061;
-    text-align: center;
-    font-weight: bolder; }
-  .container .descripcion {
-    font-family: "Open Sans", sans-serif;
-    margin: 1em auto;
-    gap: 3px;
-    grid-template-columns: repeat(2, 1fr); }
-
+/*Quines somos*/
 .grid {
   width: 90%;
   margin: 1em auto;
@@ -262,6 +221,7 @@ input:hover {
   body {
     background-color: aquamarine; } }
 
+/*Cartas de productos con precio*/
 .card-group {
   margin: 10px;
   padding: 3px; }
