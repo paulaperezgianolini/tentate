@@ -1,0 +1,32 @@
+@import "variables";
+
+.grid{
+    width: 90%;
+    margin: 1em auto;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 50% 50%;
+            .mauro{
+                grid: 1 1;
+                padding: 25px;
+                align-items: end;
+                justify-self: end;
+                
+            }
+            .ceci{
+                grid-column: 1;
+                grid-row: 2;
+                padding: 25px;
+                justify-self: end;
+            }
+            .biografiaMauro, .biografiaCeci{
+                font-family: $fuente;
+                color: $azulNoche;
+                font-size: 1.5em;
+                padding: 50px;
+                align-self: center;
+                justify-self: center;
+
+            }
+
+};

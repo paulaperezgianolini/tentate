@@ -8,6 +8,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
 html {
   font-size: 70%; }
 
@@ -63,9 +64,6 @@ body {
   color: #1a4061;
   text-align: center; }
 
-.encabezado {
-  margin-bottom: 25px; }
-
 .carousel__imagenes {
   margin-left: 150px;
   overflow: hidden;
@@ -79,26 +77,42 @@ body {
     width: 100%; }
 
 .medios {
-  display: flex;
-  flex-direction: row;
-  margin: 2px;
-  align-items: center;
-  padding-left: 15px; }
-  .medios .medios__texto {
-    background-color: rgba(49, 113, 168, 0.753);
-    font-family: "Open Sans", sans-serif;
-    color: black;
-    text-align: center;
-    font-size: 2rem; }
-  .medios .medios__ubicacion {
-    margin-left: 50px;
-    align-content: center;
-    padding: 10px; }
-  .medios .medios__musica {
-    align-content: center;
-    width: 400px;
-    margin-left: 250px;
-    padding: 10px; }
+  display: grid;
+  height: 450px;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 30% 70%;
+  column-gap: 45px;
+  row-gap: 25px;
+  border: black;
+  background-color: red;
+  margin: 55px;
+  /*
+    align-items: center;*/
+  padding-left: 5px;
+  /*
+        .medios_ubicacion_texto{
+            grid-column: 1;
+            grid-row: 1;
+            justify-self: center;
+            background-color: black;
+            font-family: $titulos;
+            color:black;
+            text-align: center;
+            font-size: 6rem;
+        }
+        .medios__ubicacion{
+            margin-left: 50px;
+            align-content: center;
+            padding: 10px;
+        }
+        .medios__musica{
+            align-content: center;
+            width: 400px;
+            margin-left: 250px;
+            padding: 10px;
+           
+        
+        }*/ }
 
 footer {
   width: 100%; }
@@ -121,7 +135,8 @@ footer {
     margin: 15px; }
 
 .encabezado {
-  margin-left: 15px; }
+  margin-left: 80px;
+  margin-bottom: 20px; }
 
 .accordion {
   margin: 45px;
@@ -134,7 +149,7 @@ footer {
       background-color: rgba(159, 188, 216, 0.726);
       font-family: "Fredericka the Great";
       font-style: italic;
-      font-size: 2.5em;
+      font-size: 1.8em;
       font-weight: bold;
       color: #1a4061; }
     .accordion .accordion-item .accordion-collapse {
@@ -210,9 +225,35 @@ input:hover {
     gap: 3px;
     grid-template-columns: repeat(2, 1fr); }
 
+.grid {
+  width: 90%;
+  margin: 1em auto;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 50% 50%; }
+  .grid .mauro {
+    grid: 1 1;
+    padding: 25px;
+    align-items: end;
+    justify-self: end; }
+  .grid .ceci {
+    grid-column: 1;
+    grid-row: 2;
+    padding: 25px;
+    justify-self: end; }
+  .grid .biografiaMauro, .grid .biografiaCeci {
+    font-family: "Open Sans", sans-serif;
+    color: #1a4061;
+    font-size: 1.5em;
+    padding: 50px;
+    align-self: center;
+    justify-self: center; }
+
 /* MEDIA QUERIES */
 /*aplicando responsive para pantallas de 768px*/
 @media screen and (max-width: 768px) {
+  html {
+    font-size: 30%; }
   body {
     background-color: white; } }
 
