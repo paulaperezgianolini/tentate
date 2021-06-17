@@ -1,16 +1,19 @@
 /* MEDIA QUERIES */
 /*aplicando responsive para pantallas de 768px*/
 @media screen and (max-width: 768px) {
-    html{
-        font-size: 30%;
-    }
     body {
         background-color: white;
     }
+    html{
+        font-size: 40%;}
+
    } 
 /*aplicando responsive para pantallas de 961px*/
 @media screen and (max-width: 320px) {
     body{
-        background-color: aquamarine;
+        background-color: $grey;
     }
+    html{
+        font-size: 20%;}
+
 }

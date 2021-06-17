@@ -211,15 +211,17 @@ input:hover {
 /* MEDIA QUERIES */
 /*aplicando responsive para pantallas de 768px*/
 @media screen and (max-width: 768px) {
-  html {
-    font-size: 30%; }
   body {
-    background-color: white; } }
+    background-color: white; }
+  html {
+    font-size: 40%; } }
 
 /*aplicando responsive para pantallas de 961px*/
 @media screen and (max-width: 320px) {
   body {
-    background-color: aquamarine; } }
+    background-color: grey; }
+  html {
+    font-size: 20%; } }
 
 /*Cartas de productos con precio*/
 .card-group {
@@ -255,7 +257,7 @@ input:hover {
     align-items: flex-end;
     justify-items: center;
     font-family: "Open Sans", sans-serif;
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: bolder;
     color: #1a4061; }
 
