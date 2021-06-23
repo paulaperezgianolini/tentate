@@ -104,21 +104,33 @@ footer {
   width: 100%; }
 
 .contacto {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 10px;
+  display: grid;
+  grid-template-columns: 90% 10%;
+  grid-template-rows: 50% 50%;
   width: 100%;
-  background-image: linear-gradient(rgba(49, 113, 168, 0.753), #1a4061); }
+  padding: 25px;
+  background-image: linear-gradient(rgba(49, 113, 168, 0.753), #1a4061);
+  align-items: center; }
   .contacto .contacto__texto {
     color: white;
+    grid-column-end: 2;
+    grid-row-start: 1;
     font-family: "Fredericka the Great";
-    font-size: 3em; }
+    font-size: 3em;
+    padding: 15px;
+    align-items: center;
+    justify-self: center; }
+  .contacto .texto_footer {
+    grid-column: 1;
+    grid-row-end: 3;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 1em; }
   .contacto .contacto__redes {
-    position: relative;
-    display: inline-block;
+    grid-column: 3;
+    grid-row: 3;
     width: 50px;
-    margin: 15px; }
+    align-self: flex-start; }
 
 /*Encabezado para secciones no principales*/
 .encabezado {
@@ -214,7 +226,7 @@ input:hover {
   body {
     background-color: white; }
   html {
-    font-size: 40%; } }
+    font-size: 30%; } }
 
 /*aplicando responsive para pantallas de 961px*/
 @media screen and (max-width: 320px) {
