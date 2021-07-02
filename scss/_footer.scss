@@ -30,9 +30,10 @@ footer{
     }
     
     .contacto__redes{
-        grid-column: 3;
-        grid-row:3;
+        grid-column: 2;
+        grid-row:2;
         width: 50px;
         align-self: flex-start;
+        justify-self: end;
     }
 }
